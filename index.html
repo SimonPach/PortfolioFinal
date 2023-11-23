@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="assets/style.css">
+    
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Simon Pach</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#Portfolio">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#sobremi">Acerca de mi</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contacto">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div class="avatar">
+      <div class="card" style="width: 18rem;">
+        <img src="assets/img/avatar-de-perfil.png" class="card-img-top" alt="avatar de perfil">
+        <div class="card-body">
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+      </div>
+    </div>
+
+    
+<div id="Portfolio">
+    <div class="container text-center">
+        <h1>PORTFOLIO</h1>
+        <hr>
+        <div class="row img">
+          <div class="col">
+            <a href="assets/to-do-list.html" target="_blank">
+                <img src="assets/img/To-do-list.png">
+            </a>
+          </div>
+          <div class="col">
+            <a href="assets/weatherchannel.html"  target="_blank">
+                <img src="assets/img/weatherchannel.png">
+            </a>
+          </div>
+          <div class="col">
+            <a href="assets/colorgame.html" target="_blank">
+                <img src="assets/img/colorgame.png">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12">
+    <section class="sobremi" id="sobremi">
+        <h2 class="text-center">Hacerca de mi</h2>
+        <hr>
+        <div class="lorem">
+        <p class="text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis, cum iusto pariatur omnis reprehenderit dolor quam quisquam ipsam ex alias necessitatibus praesentium saepe nobis quod et voluptas odit, voluptatem placeat. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto optio enim harum quo voluptates sint eligendi ab ipsam magnam eius, beatae dolorem inventore deleniti unde magni labore distinctio officiis asperiores!    </p>
+      </div>
+    </section>
+  </div>
+</div>
+    
+    <form action="https://formspree.io/f/{form_id}" method="post" id="contacto">
+      <h2 class="text-center">CONTACTAME</h2>
+      <hr>
+      <div class="formulario">
+      <label for="name">Nombre Completo</label><br>
+      <input type="text" name="name" id="name" placeholder="Apellido y Nombre" required><br>
+      <label for="email">Email</label><br>
+      <input type="email" name="email" id="email" placeholder="ejemplo@gmail.com" required><br>
+      <label for="number">Numero de telefono</label><br>
+      <input type="tel" name="number" id="number" placeholder="(+54)912345678" required><br>
+      <label for="texto">Mensaje</label><br>
+      <textarea name="textoarea" id="textoarea"></textarea><br>
+      <button>Enviar</button>
+    </div>
+    </form>
+  
+
+
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <h6>Direccion</h6>
+          <p class="dir">Av. 1 de Mayo 255</p>
+          <p class="dir">C15045 CABA</p>
+        </div>
+  
+        <div class="col en_las_redes">
+          <h6>En las redes</h6>
+          <a href="https://facebook.com/" target="_blank"><i class="bi bi-facebook"></i></a>
+          <a href="https://web.whatsapp.com/" target="_blank"><i class="bi bi-whatsapp"></i></a>
+          <a href="https://ar.linkedin.com/" target="_blank"><i class="bi bi-linkedin"></i></a>
+          <a href="https://www.google.com.ar/" target="_blank"><i class="bi bi-browser-chrome"></i></a>
+        </div>
+      </div>
+    </div>
+    
+    <footer><p>Copyright &copy; Tu sitio web 2023</p></footer>
+
+
+
+
+
+
+
+
+
+
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
